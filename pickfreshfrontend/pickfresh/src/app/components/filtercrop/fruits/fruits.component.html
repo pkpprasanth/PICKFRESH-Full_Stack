@@ -1,0 +1,14 @@
+
+<div class="gallery">
+  <mat-card class="card" *ngFor="let crop of allImages">
+    <mat-card-header>
+      <mat-card-title>{{crop.cropName}}</mat-card-title>
+    </mat-card-header>
+    <img mat-card-image src="{{crop.cropPic}}" alt="Crop">
+    <mat-card-actions>
+      <button mat-button (click)="openDetails(crop.cropId)">View Details</button>
+
+    </mat-card-actions>
+  </mat-card>
+</div>
+<app-footer></app-footer>

@@ -1,0 +1,58 @@
+<div class="wrapper">
+  <a class="one" routerLink='/gallerycrop'><span>Back to Shop</span></a>
+</div>
+
+<div class="box">
+<div class="gallery">
+  <mat-card class="card">
+    <mat-card-header>
+      <mat-card-title>{{crop.cropName}}</mat-card-title>
+      <mat-card-subtitle>{{crop.cropCategory}}</mat-card-subtitle>
+    </mat-card-header>
+
+    <img mat-card-image src="{{crop.cropPic}}" alt="MusicalInstrument">
+
+    <mat-card-content>
+      <p class="price">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; MRP: <br>
+        <img class="coin" src="../../../assets/Decoration/coin1.png" alt="">
+        &nbsp;&nbsp;{{crop.cropCost}}/- per Kg.
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <!-- <button mat-raised-button color="accent">Add to Cart</button> -->
+        <a class="button" (click)="addCart(crop.cropName,crop.cropCost)" >Add to Cart</a>
+      </p>
+    </mat-card-content>
+
+<mat-divider></mat-divider>
+
+    <mat-card-actions>
+        <div class="box-1">
+          <div class="btn btn-one" (click)="viewNextCrop()">
+            <span>View Next Item</span>
+          </div>
+        </div>
+    </mat-card-actions>
+  </mat-card>
+</div>
+
+   <!--  <div>
+      <ngb-carousel>
+        <ng-template ngbSlide>
+          <img class="sidepic" src="../../../assets/Decoration/FRUITS copy.jpg" alt="Random first slide">
+        </ng-template>
+        <ng-template ngbSlide>
+          <img class="sidepic" src="../../../assets/Decoration/VEG copy.jpg" alt="Random first slide">
+        </ng-template>
+        <ng-template ngbSlide>
+          <img class="sidepic" src="../../../assets/Decoration/Spices copy.jpg" alt="Random first slide">
+        </ng-template>
+         <ng-template ngbSlide>
+           <img class="sidepic" src="../../../assets/Decoration/Pulses copy.jpg" alt="Random first slide">
+         </ng-template>
+         <ng-template ngbSlide>
+           <img class="sidepic" src="../../../assets/Decoration/Cereals copy.jpg" alt="Random first slide">
+         </ng-template>
+      </ngb-carousel>
+      <img class="sidepic" src="../../../assets/Decoration/FRUITS copy.jpg" alt="">
+    </div> -->
+</div>

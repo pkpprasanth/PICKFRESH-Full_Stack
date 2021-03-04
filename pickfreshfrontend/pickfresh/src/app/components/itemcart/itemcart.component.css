@@ -1,0 +1,86 @@
+table {
+  width: 80%;
+  margin-left: 135px;
+  margin-top: 30px;
+}
+
+th,
+td {
+  font-size: large;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+th {
+  /*background-color: rgb(146, 137, 7);*/
+  background-color: rgb(146, 137, 7);
+  color: rgb(255, 255, 255);
+}
+
+.example-first-header-row th {
+  border-bottom: none;
+}
+
+.example-second-header-row {
+  font-style: italic;
+}
+
+.example-first-footer-row {
+  font-weight: bold;
+}
+
+.example-second-footer-row td {
+  color: #900000;
+}
+
+.displayCost {
+  position: absolute;
+  right: 332px;
+}
+
+.checkoutbtn {
+  /* position: absolute; */
+  margin-top: 2rem;
+  margin-right: 2rem;
+  left: 70%;
+}
+
+#deleteImg {
+  height: 30px;
+  width: 30px;
+}
+
+a,
+button {
+  cursor: pointer;
+}
+
+.place {
+  display: flex;
+  justify-content: center;
+}
+
+.button3 {
+  background-color: rgb(146, 137, 7);
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-left: 600px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button4 {
+  background-color: white;
+  color: black;
+  border: 2px solid rgb(146, 137, 7);
+}
+
+.button4:hover {
+  background-color: rgb(146, 137, 7);
+  color: white;
+}

@@ -1,0 +1,110 @@
+<br>
+
+<div class="gallery">
+  <mat-card class="card">
+    <mat-card-header>
+      <mat-card-title>{{kits.kitName}}</mat-card-title>
+      <mat-card-subtitle>{{kits.kitCategory}}</mat-card-subtitle>
+    </mat-card-header>
+    <hr>
+    <br>
+  <div class="recipe-details">
+    <img mat-card-image class="recipe" src="{{kits.kitPic}}" alt="kit">
+    <div>
+      <div class="price">
+        <p>Price</p>
+        <p>Duration</p>
+           <p>
+             <img class="coin" src="../../../assets/Decoration/coin1.png" alt="">
+             {{kits.kitCost}}/-
+           </p>
+           <p>
+             <img class="coin"  src="../../../assets/Decoration/icons8-hourglass-96.png" alt="">
+             {{kits.kitDuration}}
+           </p>
+           <p>
+             <a class="button" (click)="addCart(kits.kitName, kits.kitCost)"> Add to Cart</a>
+
+           </p>
+
+      </div>
+          <div class="wrapper">
+            <a class="one" routerLink='/gallerykits'><span>Back to Recipes</span></a>
+          </div>
+
+          <div class="wrapper">
+            <a class="two" (click)="viewNextKit()"><span>Next Recipe</span></a>
+          </div>
+
+    </div>
+  </div>
+
+  <mat-divider></mat-divider>
+  <h1> <br>
+    RECIPE & INGREDIENTS REQUIRED
+  </h1>
+  <br><br>
+    <mat-card-content>
+
+      <div class="left-side desc" >
+        <p class="decription">
+          {{kits.kitDescription}}
+        </p>
+      </div>
+
+      <p>
+        <img mat-card-image src="{{kits.kitIngredientsPic}}" alt="kit">
+
+      </p>
+
+      <div class="left-side">
+      <p>
+        <img mat-card-image src="{{kits.kitRecipePic1}}" alt="kit">
+
+      </p>
+      </div>
+
+      <p class="decription">
+        STEP-1 <br><br>
+        {{kits.kitRecipeDesc1}}
+
+      </p>
+      <div class="left-side desc">
+         <p class="decription">
+           STEP-2 <br><br>
+           {{kits.kitRecipeDesc2}}
+
+         </p>
+      </div>
+      <p>
+        <img mat-card-image src="{{kits.kitRecipePic2}}" alt="kit">
+
+      </p>
+
+      <div class="left-side">
+        <p>
+          <img mat-card-image src="{{kits.kitRecipePic3}}" alt="kit">
+
+        </p>
+      </div>
+
+         <p class="decription">
+           STEP-3 <br><br>
+           {{kits.kitRecipeDesc3}}
+
+         </p>
+         <div class="left-side desc">
+            <p class="decription">
+              STEP-4 <br><br>
+              {{kits.kitRecipeDesc4}}
+
+            </p>
+         </div>
+
+       <p>
+         <img mat-card-image src="{{kits.kitRecipePic4}}" alt="kit">
+       </p>
+    </mat-card-content>
+
+  </mat-card>
+</div>

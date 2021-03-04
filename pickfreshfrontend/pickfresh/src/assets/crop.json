@@ -1,0 +1,538 @@
+[
+  {
+    "cropId": 1,
+    "cropName": "Mixed Spices",
+    "cropCategory": "spices",
+    "cropColor": "brown",
+    "cropCost": 150,
+    "cropPic": "../../../assets/spices/allspices1.jpg"
+  },
+  {
+    "cropId": 2,
+    "cropName": "Mixed Spices",
+    "cropCategory": "spices",
+    "cropColor": "brown",
+    "cropCost": 150,
+    "cropPic": "../../../assets/spices/allspices2.jpg"
+  },
+  {
+    "cropId": 3,
+    "cropName": "Bay Leaf",
+    "cropCategory": "spices",
+    "cropColor": "green",
+    "cropCost": 40,
+    "cropPic": "../../../assets/spices/bayleaf.jpg"
+  },
+  {
+    "cropId": 4,
+    "cropName": "Cumin Seeds",
+    "cropCategory": "spices",
+    "cropColor": "yellow",
+    "cropCost": 50,
+    "cropPic": "../../../assets/spices/cumin.jpg"
+  },
+  {
+    "cropId": 5,
+    "cropName": "Star Spice",
+    "cropCategory": "spices",
+    "cropColor": "brown",
+    "cropCost": 30,
+    "cropPic": "../../../assets/spices/star.jpg"
+  },
+  {
+    "cropId": 6,
+    "cropName": "Cardamom",
+    "cropCategory": "spices",
+    "cropColor": "green",
+    "cropCost": 70,
+    "cropPic": "../../../assets/spices/cardamom.jpg"
+  },
+  {
+    "cropId": 7,
+    "cropName": "Garlic",
+    "cropCategory": "spices",
+    "cropColor": "white",
+    "cropCost": 150,
+    "cropPic": "../../../assets/spices/garlic.jpg"
+  },
+  {
+    "cropId": 8,
+    "cropName": "Turmeric Powder",
+    "cropCategory": "spices",
+    "cropColor": "brown",
+    "cropCost": 50,
+    "cropPic": "../../../assets/spices/turmeric.jpg"
+  },
+  {
+    "cropId": 9,
+    "cropName": "Cinnamon Stick",
+    "cropCategory": "spices",
+    "cropColor": "brown",
+    "cropCost": 100,
+    "cropPic": "../../../assets/spices/cinnamon.jpg"
+  },
+  {
+    "cropId": 10,
+    "cropName": "Ginger",
+    "cropCategory": "spices",
+    "cropColor": "brown",
+    "cropCost": 90,
+    "cropPic": "../../../assets/spices/ginger.jpg"
+  },
+  {
+    "cropId": 11,
+    "cropName": "Apples",
+    "cropCategory": "fruits",
+    "cropColor": "red",
+    "cropCost": 150,
+    "cropPic": "../../../assets/fruits/apple2.jpg"
+  },
+  {
+    "cropId": 12,
+    "cropName": "Apricots",
+    "cropCategory": "fruits",
+    "cropColor": "orange",
+    "cropCost": 70,
+    "cropPic": "../../../assets/fruits/apricot.jpg"
+  },
+  {
+    "cropId": 13,
+    "cropName": "Black Currants",
+    "cropCategory": "fruits",
+    "cropColor": "black",
+    "cropCost": 90,
+    "cropPic": "../../../assets/fruits/blackcurrant.jpg"
+  },
+  {
+    "cropId": 14,
+    "cropName": "BlueBerries",
+    "cropCategory": "fruits",
+    "cropColor": "blue",
+    "cropCost": 80,
+    "cropPic": "../../../assets/fruits/blueberries.jpg"
+  },
+  {
+    "cropId": 15,
+    "cropName": "Custard Apples",
+    "cropCategory": "fruits",
+    "cropColor": "green",
+    "cropCost": 100,
+    "cropPic": "../../../assets/fruits/custardapple.jpg"
+  },
+  {
+    "cropId": 16,
+    "cropName": "Green Apples",
+    "cropCategory": "fruits",
+    "cropColor": "green",
+    "cropCost": 100,
+    "cropPic": "../../../assets/fruits/greenapple.jpg"
+  },
+  {
+    "cropId": 17,
+    "cropName": "Green Bananas",
+    "cropCategory": "fruits",
+    "cropColor": "green",
+    "cropCost": 60,
+    "cropPic": "../../../assets/fruits/greenbanana.jpg"
+  },
+  {
+    "cropId": 18,
+    "cropName": "Grapes",
+    "cropCategory": "fruits",
+    "cropColor": "green",
+    "cropCost": 80,
+    "cropPic": "../../../assets/fruits/greengrapes.jpg"
+  },
+  {
+    "cropId": 19,
+    "cropName": "Green Pears",
+    "cropCategory": "fruits",
+    "cropColor": "green",
+    "cropCost": 100,
+    "cropPic": "../../../assets/fruits/greenpears.jpg"
+  },
+  {
+    "cropId": 20,
+    "cropName": "Guavas",
+    "cropCategory": "fruits",
+    "cropColor": "green",
+    "cropCost": 40,
+    "cropPic": "../../../assets/fruits/guava.jpg"
+  },
+  {
+    "cropId": 21,
+    "cropName": "Jack Fruit",
+    "cropCategory": "fruits",
+    "cropColor": "green",
+    "cropCost": 180,
+    "cropPic": "../../../assets/fruits/jackfruit.jpg"
+  },
+  {
+    "cropId": 22,
+    "cropName": "Kiwi",
+    "cropCategory": "fruits",
+    "cropColor": "Brown",
+    "cropCost": 150,
+    "cropPic": "../../../assets/fruits/kiwi1.jpg"
+  },
+  {
+    "cropId": 23,
+    "cropName": "Oranges",
+    "cropCategory": "fruits",
+    "cropColor": "orange",
+    "cropCost": 50,
+    "cropPic": "../../../assets/fruits/orange1.jpg"
+  },
+  {
+    "cropId": 24,
+    "cropName": "PineApple",
+    "cropCategory": "fruits",
+    "cropColor": "yellow",
+    "cropCost": 80,
+    "cropPic": "../../../assets/fruits/pineapple.jpg"
+  },
+  {
+    "cropId": 25,
+    "cropName": "Plum",
+    "cropCategory": "fruits",
+    "cropColor": "red",
+    "cropCost": 90,
+    "cropPic": "../../../assets/fruits/plum.jpg"
+  },
+  {
+    "cropId": 26,
+    "cropName": "Pomegranates",
+    "cropCategory": "fruits",
+    "cropColor": "red",
+    "cropCost": 100,
+    "cropPic": "../../../assets/fruits/pomegranate1.jpg"
+  },
+  {
+    "cropId": 27,
+    "cropName": "Red Bananas",
+    "cropCategory": "fruits",
+    "cropColor": "red",
+    "cropCost": 60,
+    "cropPic": "../../../assets/fruits/redbanana.jpg"
+  },
+  {
+    "cropId": 28,
+    "cropName": "Red Pears",
+    "cropCategory": "fruits",
+    "cropColor": "red",
+    "cropCost": 110,
+    "cropPic": "../../../assets/fruits/redpears.jpg"
+  },
+  {
+    "cropId": 29,
+    "cropName": "Strawberry",
+    "cropCategory": "fruits",
+    "cropColor": "red",
+    "cropCost": 150,
+    "cropPic": "../../../assets/fruits/strawberry.jpg"
+  },
+  {
+    "cropId": 30,
+    "cropName": "Watermelon",
+    "cropCategory": "fruits",
+    "cropColor": "green",
+    "cropCost": 70,
+    "cropPic": "../../../assets/fruits/watermelon.jpg"
+  },
+  {
+    "cropId": 31,
+    "cropName": "Bananas",
+    "cropCategory": "fruits",
+    "cropColor": "yellow",
+    "cropCost": 50,
+    "cropPic": "../../../assets/fruits/yellowbanana.jpg"
+  },
+  {
+    "cropId": 32,
+    "cropName": "Spinach",
+    "cropCategory": "vegetables",
+    "cropColor": "green",
+    "cropCost": 20,
+    "cropPic": "../../../assets/vegetables/spinach.jpg"
+  },
+  {
+    "cropId": 33,
+    "cropName": "Turnip",
+    "cropCategory": "vegetables",
+    "cropColor": "purple",
+    "cropCost": 20,
+    "cropPic": "../../../assets/vegetables/turnip.jpg"
+  },
+  {
+    "cropId": 34,
+    "cropName": "Lemon",
+    "cropCategory": "vegetables",
+    "cropColor": "yellow",
+    "cropCost": 50,
+    "cropPic": "../../../assets/vegetables/lemon.jpg"
+  },
+  {
+    "cropId": 35,
+    "cropName": "CauliFlower",
+    "cropCategory": "vegetables",
+    "cropColor": "white",
+    "cropCost": 70,
+    "cropPic": "../../../assets/vegetables/cauliflower.jpg"
+  },
+  {
+    "cropId": 36,
+    "cropName": "Cabbage",
+    "cropCategory": "vegetables",
+    "cropColor": "green",
+    "cropCost": 50,
+    "cropPic": "../../../assets/vegetables/cabbage.jpg"
+  },
+  {
+    "cropId": 37,
+    "cropName": "Beans",
+    "cropCategory": "vegetables",
+    "cropColor": "green",
+    "cropCost": 50,
+    "cropPic": "../../../assets/vegetables/beans.jpg"
+  },
+  {
+    "cropId": 38,
+    "cropName": "Bottle Gourd",
+    "cropCategory": "vegetables",
+    "cropColor": "green",
+    "cropCost": 40,
+    "cropPic": "../../../assets/vegetables/bottlegourd.jpg"
+  },
+  {
+    "cropId": 39,
+    "cropName": "Broccoli",
+    "cropCategory": "vegetables",
+    "cropColor": "green",
+    "cropCost": 100,
+    "cropPic": "../../../assets/vegetables/broccoli.jpg"
+  },
+  {
+    "cropId": 40,
+    "cropName": "Cucumber",
+    "cropCategory": "vegetables",
+    "cropColor": "green",
+    "cropCost": 80,
+    "cropPic": "../../../assets/vegetables/cucumber.jpg"
+  },
+  {
+    "cropId": 41,
+    "cropName": "Green Chilli",
+    "cropCategory": "vegetables",
+    "cropColor": "green",
+    "cropCost": 40,
+    "cropPic": "../../../assets/vegetables/greenchilli.jpg"
+  },
+  {
+    "cropId": 42,
+    "cropName": "Lettuce",
+    "cropCategory": "vegetables",
+    "cropColor": "green",
+    "cropCost": 30,
+    "cropPic": "../../../assets/vegetables/lettuce.jpg"
+  },
+  {
+    "cropId": 43,
+    "cropName": "Onion",
+    "cropCategory": "vegetables",
+    "cropColor": "Red",
+    "cropCost": 40,
+    "cropPic": "../../../assets/vegetables/onion.jpg"
+  },
+  {
+    "cropId": 44,
+    "cropName": "Orange Capsicum",
+    "cropCategory": "vegetables",
+    "cropColor": "orange",
+    "cropCost": 50,
+    "cropPic": "../../../assets/vegetables/orangecapsicum.jpg"
+  },
+  {
+    "cropId": 45,
+    "cropName": "Peas",
+    "cropCategory": "vegetables",
+    "cropColor": "green",
+    "cropCost": 130,
+    "cropPic": "../../../assets/vegetables/peas.jpg"
+  },
+  {
+    "cropId": 46,
+    "cropName": "Potatoes",
+    "cropCategory": "vegetables",
+    "cropColor": "brown",
+    "cropCost": 30,
+    "cropPic": "../../../assets/vegetables/potato.jpg"
+  },
+  {
+    "cropId": 47,
+    "cropName": "Pumpkin",
+    "cropCategory": "vegetables",
+    "cropColor": "orange",
+    "cropCost": 100,
+    "cropPic": "../../../assets/vegetables/pumpkin.jpg"
+  },
+  {
+    "cropId": 48,
+    "cropName": "Purple Cabbage",
+    "cropCategory": "vegetables",
+    "cropColor": "purple",
+    "cropCost": 40,
+    "cropPic": "../../../assets/vegetables/purplecabbage.jpg"
+  },
+  {
+    "cropId": 49,
+    "cropName": "Red Chilli",
+    "cropCategory": "vegetables",
+    "cropColor": "red",
+    "cropCost": 30,
+    "cropPic": "../../../assets/vegetables/redchilli.jpg"
+  },
+  {
+    "cropId": 50,
+    "cropName": "Yellow Capsicum",
+    "cropCategory": "vegetables",
+    "cropColor": "yellow",
+    "cropCost": 50,
+    "cropPic": "../../../assets/vegetables/redyellowcapsicum.jpg"
+  },
+  {
+    "cropId": 51,
+    "cropName": "Mushroom",
+    "cropCategory": "vegetables",
+    "cropColor": "cream",
+    "cropCost": 120,
+    "cropPic": "../../../assets/vegetables/mushroom.jpg"
+  },
+  {
+    "cropId": 52,
+    "cropName": "Ridge Gourd",
+    "cropCategory": "vegetables",
+    "cropColor": "green",
+    "cropCost": 40,
+    "cropPic": "../../../assets/vegetables/ridgegourd.jpg"
+  },
+  {
+    "cropId": 53,
+    "cropName": "Snake Gourd",
+    "cropCategory": "vegetables",
+    "cropColor": "green",
+    "cropCost": 30,
+    "cropPic": "../../../assets/vegetables/snakegourd.jpg"
+  },
+  {
+    "cropId": 54,
+    "cropName": "Tomatoes",
+    "cropCategory": "vegetables",
+    "cropColor": "red",
+    "cropCost": 40,
+    "cropPic": "../../../assets/vegetables/tomato.jpg"
+  },
+  {
+    "cropId": 55,
+    "cropName": "Bengal Gram",
+    "cropCategory": "pulses",
+    "cropColor": "yellow",
+    "cropCost": 90,
+    "cropPic": "../../../assets/pulses/bengalgram.jpg"
+  },
+  {
+    "cropId": 56,
+    "cropName": "Black Beans",
+    "cropCategory": "pulses",
+    "cropColor": "black",
+    "cropCost": 110,
+    "cropPic": "../../../assets/pulses/blackbeans.jpg"
+  },
+  {
+    "cropId": 57,
+    "cropName": "Black Gram",
+    "cropCategory": "pulses",
+    "cropColor": "black",
+    "cropCost": 120,
+    "cropPic": "../../../assets/pulses/blackgram.jpg"
+  },
+  {
+    "cropId": 58,
+    "cropName": "Red Gram",
+    "cropCategory": "pulses",
+    "cropColor": "red",
+    "cropCost": 120,
+    "cropPic": "../../../assets/pulses/redgram.jpg"
+  },
+  {
+    "cropId": 59,
+    "cropName": "Green Gram",
+    "cropCategory": "pulses",
+    "cropColor": "green",
+    "cropCost": 150,
+    "cropPic": "../../../assets/pulses/greengram.jpg"
+  },
+  {
+    "cropId": 60,
+    "cropName": "Kidney Beans",
+    "cropCategory": "pulses",
+    "cropColor": "white",
+    "cropCost": 110,
+    "cropPic": "../../../assets/pulses/kidneybeans.jpg"
+  },
+  {
+    "cropId": 61,
+    "cropName": "Lentils",
+    "cropCategory": "pulses",
+    "cropColor": "brown",
+    "cropCost": 120,
+    "cropPic": "../../../assets/pulses/lentils.jpg"
+  },
+  {
+    "cropId": 62,
+    "cropName": "Red Beans",
+    "cropCategory": "pulses",
+    "cropColor": "red",
+    "cropCost": 100,
+    "cropPic": "../../../assets/pulses/redbeans.jpeg"
+  },
+  {
+    "cropId": 63,
+    "cropName": "Rice",
+    "cropCategory": "cereals",
+    "cropColor": "white",
+    "cropCost": 40,
+    "cropPic": "../../../assets/cereals/rice1.jpg"
+  },
+  {
+    "cropId": 64,
+    "cropName": "Maize",
+    "cropCategory": "cereals",
+    "cropColor": "yellow",
+    "cropCost": 30,
+    "cropPic": "../../../assets/cereals/maize.jpg"
+  },
+  {
+    "cropId": 65,
+    "cropName": "Millets",
+    "cropCategory": "cereals",
+    "cropColor": "yellow",
+    "cropCost": 100,
+    "cropPic": "../../../assets/cereals/millets.jpg"
+  },
+  {
+    "cropId": 66,
+    "cropName": "Jowar",
+    "cropCategory": "cereals",
+    "cropColor": "green",
+    "cropCost": 40,
+    "cropPic": "../../../assets/cereals/sorghum.jpg"
+  },
+  {
+    "cropId": 67,
+    "cropName": "Wheat",
+    "cropCategory": "cereals",
+    "cropColor": "brown",
+    "cropCost": 40,
+    "cropPic": "../../../assets/cereals/wheat.jpg"
+  }
+]

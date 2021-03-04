@@ -1,0 +1,52 @@
+.profile
+{
+  height: 200px;
+  width: 200px;
+}
+
+mat-card{
+  display: flex;
+  justify-content: space-around;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+
+}
+
+.img {
+  height: 250px;
+  width: 250px;
+  margin-left: 100px;
+}
+
+.outline
+{
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.img1 {
+  margin-left: 50px;
+}
+
+.description {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 17px;
+  font-weight: 300;
+  text-align: justify;
+}
+
+.main {
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-top: 100px;
+}
+
+p
+{
+  text-align: justify;
+  margin-top: 20px;
+}

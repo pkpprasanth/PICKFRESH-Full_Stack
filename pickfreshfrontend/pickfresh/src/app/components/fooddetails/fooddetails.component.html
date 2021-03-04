@@ -1,0 +1,34 @@
+<div class="wrapper">
+  <a class="one" routerLink='/galleryfood'><span>Back to Shop</span></a>
+</div>
+
+    <div class="gallery">
+      <mat-card class="card">
+        <mat-card-header>
+          <mat-card-title>{{food.foodName}}</mat-card-title>
+          <mat-card-subtitle>{{food.foodCategory}}</mat-card-subtitle>
+        </mat-card-header>
+
+        <img mat-card-image src="{{food.foodPic}}" alt="MusicalInstrument">
+
+        <mat-card-content>
+          <p class="price">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; MRP: <br>
+            <img class="coin" src="../../../assets/Decoration/coin1.png" alt="">
+            &nbsp;&nbsp; {{food.foodCost}}/-
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a class="button" (click)="addCart(food.foodName,food.foodCost)"> Add to Cart</a>
+          </p>
+        </mat-card-content>
+
+        <mat-divider></mat-divider>
+
+        <mat-card-actions>
+          <div class="box-1">
+            <div class="btn btn-one" (click)="viewNextFood()">
+              <span>View Next Item</span>
+            </div>
+          </div>
+        </mat-card-actions>
+      </mat-card>
+    </div>

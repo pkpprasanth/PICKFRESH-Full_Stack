@@ -1,0 +1,26 @@
+<app-navbar></app-navbar>
+
+<div class="gallery">
+  <mat-card class="card">
+
+    <mat-card-header>
+<br>
+      <img [src]="photo" alt="" />
+<br><br>
+
+      <mat-card-title> <br><br> Hello <b>{{userName}} , <br>{{email}}</b> <br><br> Hope you liked shopping
+        with Pickfresh.. <br><br>
+        <br>
+        <br> Want to continue shopping..
+        <br> Click Home <br><br> A pumpkin full of thank you from us..
+      </mat-card-title>
+    </mat-card-header>
+<br>
+    <mat-card-actions>
+      <a class="btn-flip" data-back="Visit Again." data-front="Logout" (click)="signOut()"></a>
+    </mat-card-actions>
+
+  </mat-card>
+</div>
+
+<app-footer></app-footer>

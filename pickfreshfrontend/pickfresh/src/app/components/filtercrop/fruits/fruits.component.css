@@ -1,0 +1,113 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300);
+
+.card {
+  max-width: 300px;
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: 15px;
+  margin-bottom: 30px;
+  border-radius: 15px;
+}
+
+.mat-card:not([class*=mat-elevation-z]) {
+  box-shadow: 0 1px 1px 0px rgb(150, 148, 148),
+    0 1px 1px 0 rgb(150, 148, 148),
+    0 1px 3px 0 rgb(150, 148, 148);
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  margin-left: 22px;
+  margin-right: 22px;
+}
+
+.play {
+  height: 2.4em;
+  width: 2.4em;
+  margin-bottom: 5px;
+}
+
+a {
+  cursor: pointer;
+}
+mat-card-actions {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  background: rgb(40, 41, 40);
+  color: rgb(255, 255, 255);
+  width: 180px;
+  height: 35px;
+  border: 0;
+  font-size: 17px;
+  border-radius: 4px;
+  font-family: 'Raleway', sans-serif;
+  transition: 0.6s;
+  overflow: hidden;
+  font-weight: 500;
+  border-radius: 20px;
+}
+
+mat-card-title {
+  font-family: Cambria,
+    Cochin,
+    Georgia,
+    Times,
+    'Times New Roman',
+    serif;
+  font-weight: 700;
+}
+
+button:focus {
+  outline: 0;
+}
+
+button:before {
+  content: '';
+  display: block;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.5);
+  width: 60px;
+  height: 100%;
+  left: 0;
+  top: 0;
+  opacity: 0.5;
+  filter: blur(30px);
+  transform: translateX(-100px) skewX(-15deg);
+}
+
+button:after {
+  content: '';
+  display: block;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.2);
+  width: 30px;
+  height: 100%;
+  left: 30px;
+  top: 0;
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100px) skewX(-15deg);
+}
+
+button:hover {
+  background: #ac810b;
+  cursor: pointer;
+}
+
+button:hover:before {
+  transform: translateX(300px) skewX(-15deg);
+  opacity: 0.6;
+  transition: 0.7s;
+}
+
+button:hover:after {
+  transform: translateX(300px) skewX(-15deg);
+  opacity: 1;
+  transition: 0.7s;
+}

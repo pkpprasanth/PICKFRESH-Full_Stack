@@ -1,0 +1,31 @@
+
+@import 'https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300';
+
+/* You can add global styles to this file, and also import other style files */
+html, body { height: 100%; }
+
+
+.mat-tab-label {
+  background: rgb(230, 9, 9);
+  /*background-color: rgb(230, 9, 9);*/
+  color: rgb(255, 255, 255);
+  padding: 0 10px;
+
+}
+
+/* focus style*/
+.mat-tab-group.mat-primary .mat-tab-label:not(.mat-tab-disabled):focus,
+.mat-tab-group.mat-primary .mat-tab-link:not(.mat-tab-disabled):focus,
+.mat-tab-nav-bar.mat-primary .mat-tab-label:not(.mat-tab-disabled):focus,
+.mat-tab-nav-bar.mat-primary .mat-tab-link:not(.mat-tab-disabled):focus {
+  background: rgb(87, 86, 86);
+  display: flex;
+  justify-content: center;
+}
+
+/* ink bar style */
+.mat-tab-group.mat-primary .mat-ink-bar,
+.mat-tab-nav-bar.mat-primary .mat-ink-bar {
+  background: rgb(238, 89, 89);
+  height: 3px;
+}

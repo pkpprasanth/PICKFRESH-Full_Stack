@@ -1,0 +1,163 @@
+[
+  {
+    "foodId": 1,
+    "foodName": "Healthy Veg Muffins",
+    "foodCategory": "veg",
+    "foodCost": 150,
+    "foodPic": "../../../assets/food/bread1.jpg"
+  },
+  {
+    "foodId": 2,
+    "foodName": "Pineapple Chicken Bites",
+    "foodCategory": "nonveg",
+    "foodCost": 200,
+    "foodPic": "../../../assets/food/pinebites.jpg"
+  },
+  {
+    "foodId": 3,
+    "foodName": "Egg Mixture",
+    "foodCategory": "nonveg",
+    "foodCost": 150,
+    "foodPic": "../../../assets/food/egg1.jpg"
+  },
+  {
+    "foodId": 4,
+    "foodName": "Sprouts Mix",
+    "foodCategory": "veg",
+    "foodCost": 120,
+    "foodPic": "../../../assets/food/sprouts.jpg"
+  },
+  {
+    "foodId": 5,
+    "foodName": "Spicy Chicken Legs",
+    "foodCategory": "nonveg",
+    "foodCost": 250,
+    "foodPic": "../../../assets/food/chickenlegs.jpg"
+  },
+  {
+    "foodId": 6,
+    "foodName": "Healthy Sprouts Soup",
+    "foodCategory": "veg",
+    "foodCost": 120,
+    "foodPic": "../../../assets/food/vegsoup.jpg"
+  },
+  {
+    "foodId": 7,
+    "foodName": "Veg Roti Rolls",
+    "foodCategory": "veg",
+    "foodCost": 150,
+    "foodPic": "../../../assets/food/roti.jpg"
+  },
+  {
+    "foodId": 8,
+    "foodName": "Spiced Chicken Starter",
+    "foodCategory": "nonveg",
+    "foodCost": 200,
+    "foodPic": "../../../assets/food/chickenswag.jpg"
+  },
+  {
+    "foodId": 9,
+    "foodName": "Fruit Salad",
+    "foodCategory": "veg",
+    "foodCost": 180,
+    "foodPic": "../../../assets/food/fruitsalad.jpg"
+  },
+  {
+    "foodId": 10,
+    "foodName": "Fish Fry",
+    "foodCategory": "nonveg",
+    "foodCost": 400,
+    "foodPic": "../../../assets/food/fishfry.jpg"
+  },
+  {
+    "foodId": 11,
+    "foodName": "Spicy Cashew",
+    "foodCategory": "veg",
+    "foodCost": 450,
+    "foodPic": "../../../assets/food/cashew.jpg"
+  },
+  {
+    "foodId": 12,
+    "foodName": "Fruit Bowl",
+    "foodCategory": "veg",
+    "foodCost": 150,
+    "foodPic": "../../../assets/food/fruitbowl.jpg"
+  },
+  {
+    "foodId": 13,
+    "foodName": "Grilled Chicken",
+    "foodCategory": "nonveg",
+    "foodCost": 250,
+    "foodPic": "../../../assets/food/grilledchicken.jpg"
+  },
+  {
+    "foodId": 14,
+    "foodName": "Mushroom Egg Mix",
+    "foodCategory": "nonveg",
+    "foodCost": 210,
+    "foodPic": "../../../assets/food/mushroom-egg.jpg"
+  },
+  {
+    "foodId": 15,
+    "foodName": "Prawns Fry",
+    "foodCategory": "nonveg",
+    "foodCost": 550,
+    "foodPic": "../../../assets/food/prawns.jpg"
+  },
+  {
+    "foodId": 16,
+    "foodName": "Salmon Fish Fry",
+    "foodCategory": "nonveg",
+    "foodCost": 450,
+    "foodPic": "../../../assets/food/salmon.jpg"
+  },
+  {
+    "foodId": 17,
+    "foodName": "Whole Wheat Chicken Pizza",
+    "foodCategory": "nonveg",
+    "foodCost": 200,
+    "foodPic": "../../../assets/food/chickenpizza.jpg"
+  },
+  {
+    "foodId": 18,
+    "foodName": "Whole Wheat Chicken Pizza",
+    "foodCategory": "nonveg",
+    "foodCost": 220,
+    "foodPic": "../../../assets/food/chickensauced.jpg"
+  },
+  {
+    "foodId": 19,
+    "foodName": "Veggies Starter",
+    "foodCategory": "veg",
+    "foodCost": 250,
+    "foodPic": "../../../assets/food/veggies1.jpg"
+  },
+  {
+    "foodId": 20,
+    "foodName": "Whole Wheat Veg Pizza",
+    "foodCategory": "veg",
+    "foodCost": 350,
+    "foodPic": "../../../assets/food/vegpizza1.jpg"
+  },
+  {
+    "foodId": 21,
+    "foodName": "Whole Wheat Veg Pizza",
+    "foodCategory": "veg",
+    "foodCost": 350,
+    "foodPic": "../../../assets/food/vegpizza2.jpg"
+  },
+  {
+    "foodId": 22,
+    "foodName": "Veg Salad",
+    "foodCategory": "veg",
+    "foodCost": 300,
+    "foodPic": "../../../assets/food/vegsalad.jpg"
+  },
+  {
+    "foodId": 23,
+    "foodName": "Juicy Chicken Wings",
+    "foodCategory": "nonveg",
+    "foodCost": 300,
+    "foodPic": "../../../assets/food/chickenchow.jpg"
+  }
+]

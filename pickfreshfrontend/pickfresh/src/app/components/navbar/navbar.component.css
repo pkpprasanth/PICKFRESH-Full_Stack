@@ -1,0 +1,48 @@
+
+.example-button-toggle-label {
+  display: inline-block;
+  margin: 8px;
+}
+.mat-tab-group {
+  margin-bottom: 48px;
+  padding: 34px;
+}
+
+#subnav
+{
+  background-color: white;
+  color: black;
+}
+
+img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+
+/*CSS*/
+
+button {
+  font-size: 1rem;
+  font-family: "Vollkorn",
+  serif;
+}
+
+.active-link {
+  background-color: rgb(95, 95, 95);
+  color: rgb(255, 255, 255);
+}
+
+mat-toolbar {
+  width: 94%;
+  background-color: #353535;
+  margin-left: 40px;
+  margin-top: 0px;
+  padding: 5px;
+  margin-right: 0px;
+  color: whitesmoke;
+}
+
+.login-register {
+  margin-left: 5%;
+}

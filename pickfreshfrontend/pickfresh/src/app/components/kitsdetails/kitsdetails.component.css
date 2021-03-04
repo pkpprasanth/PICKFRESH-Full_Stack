@@ -1,0 +1,248 @@
+/*Back button style */
+.wrapper {
+  margin-top: 80px;
+  margin-left: 180px;
+  width: 180px;
+  font-size: 18px;
+  transform: translate(-50%, -50%);
+}
+
+.one {
+  display: block;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #333;
+  border: 2px solid #333;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all .70s;
+}
+
+.one span {
+  position: relative;
+  z-index: 2;
+}
+
+.one:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #71a88b;
+  transition: all .70s;
+}
+
+.one:hover {
+  color: #fff;
+}
+
+.one:hover:after {
+  width: 100%;
+}
+
+.two {
+  display: block;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #333;
+  border: 2px solid #333;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all .70s;
+}
+
+.two span {
+  position: relative;
+  z-index: 2;
+}
+
+.two:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 100%;
+  background: #71a88b;
+  transition: all .70s;
+}
+
+.two:hover {
+  color: #fff;
+}
+
+.two:hover:after {
+  width: 100%;
+}
+/*Back button style end */
+
+
+.card {
+  max-width: 1000px;
+  border-radius: 15px;
+}
+
+.mat-card:not([class*=mat-elevation-z]) {
+  box-shadow: 0 1px 1px 0px rgb(150, 148, 148),
+    0 1px 1px 0 rgb(150, 148, 148),
+    0 1px 3px 0 rgb(150, 148, 148);
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+
+}
+
+.recipe-details{
+  display: flex;
+  justify-content: space-around;
+}
+
+.recipe{
+  height: 400px;
+  width: 400px;
+}
+
+.play {
+  height: 2.4em;
+  width: 2.4em;
+  margin-bottom: 5px;
+}
+
+
+button {
+  border-radius: 30px;
+}
+
+mat-card-content
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+h1 {
+  font-family: 'Josefin Slab',
+    serif;
+  font-size: 25px;
+}
+
+.left-side{
+  margin-right: 35px;
+}
+
+/*
+Add button
+*/
+
+.button{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.75rem 2rem;
+  border-radius: 20rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 0.15rem;
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.button:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ee5353;
+  border-radius: 10rem;
+  z-index: -2;
+}
+
+.button:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: #e68282;
+  transition: all 0.3s;
+  border-radius: 10rem;
+  z-index: -1;
+}
+
+.button:hover {
+  color: #fff;
+}
+
+.button:hover:before {
+  width: 100%;
+}
+
+.coin {
+  height: 25px;
+  width: 25px;
+}
+
+.price{
+
+  margin-left: 75px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  font-family: Cambria,
+  Cochin,
+  Georgia,
+  Times,
+  'Times New Roman',
+  serif;
+   font-size: 19px;
+  font-weight: 700;
+
+}
+
+a {
+  cursor: pointer;
+}
+
+mat-card-subtitle
+ {
+   font-size: 18px;
+   font-family: 'Courier New', Courier, monospace;
+ }
+
+ .decription, .desc {
+   /* font-size: 30px;
+   font-family: 'Courier New', Courier, monospace;
+   text-align: justify; */
+   font-family: "Vollkorn",
+   serif;
+   font-size: 1.5rem;
+   color: rgb(65, 65, 65);
+   letter-spacing: 4;
+   text-align: justify;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
